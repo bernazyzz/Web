@@ -9,7 +9,7 @@
 
 :root {
     --cor1: #25a75f;
-    --cor2: #05431F;
+    --cor2: #05431f;
 }
 
 * {
@@ -22,12 +22,32 @@ header {
     border: 1px solid red;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-image: linear-gradient(to bottom,var(--cor1), var(--cor2));
+    background-image: linear-gradient(to bottom,var(--cor1), var(--cor2), #074622);
     padding: 20px;
+}
+
+nav {
+    background-color: #063C1D;
+    text-align: left;
+    padding: 10px;
+}
+
+nav > a {
+    color: #93D5B1;
+    text-decoration: none;
+    padding: 15px;
 }
 
 p {
     width: 400px;
     margin: auto;
     padding: 20px;
+}
+
+body {
+    background-color: #E9E6C3;
+}
+
+main {
+    background-color: white;
 }
