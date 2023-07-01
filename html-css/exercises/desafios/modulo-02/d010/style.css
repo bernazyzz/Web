@@ -127,17 +127,22 @@ h2 {
     content: ' 📎';
 }
 
-#center {
+.center {
     text-align: center;
 }
 
+.left {
+    text-align: left;
+}
+
 .border {
-    border: 800px;
+    width: 104.5%;
+    background-color: var(--cor3);
+    transform: translate(-18px, 0px);
 }
 
 .video {
-    background-color: var(--cor3);
-    margin: auto;
-    padding: 30px;
+    margin-left: 18px;
+    padding-top: 18px;
+    padding-bottom: 18px;
 }
-
