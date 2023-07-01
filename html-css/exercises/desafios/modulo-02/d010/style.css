@@ -127,5 +127,17 @@ h2 {
     content: ' 📎';
 }
 
+#center {
+    text-align: center;
+}
 
+.border {
+    border: 800px;
+}
+
+.video {
+    background-color: var(--cor3);
+    margin: auto;
+    padding: 30px;
+}
 
