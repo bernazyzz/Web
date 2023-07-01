@@ -15,6 +15,7 @@
 :root {
     --cor1: #25a75f;
     --cor2: #064b23;
+    --cor3: #063C1D;
 }
 
 * {
@@ -26,12 +27,12 @@ header {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-image: linear-gradient(to bottom,var(--cor1), var(--cor2), #063C1D);
+    background-image: linear-gradient(to bottom,var(--cor1), var(--cor2), var(--cor3));
     padding: 0px;
 }
 
 nav {
-    background-color: #063C1D;
+    background-color: var(--cor3);
     text-align: left;
     padding: 10px;
     box-shadow: 1px 1px 10px #05341994;
@@ -41,17 +42,14 @@ nav > a {
     color: #93D5B1;
     text-align: center;
     text-decoration: none;
-    padding: 15px;
+    padding: 10px;
+    transition: 0.5s;
 }
 
 nav > a:hover {
-    color: #063C1D;
+    color: var(--cor3);
     background-color: var(--cor1);
     border-radius: 6px;
-    /*
-        - heigth e width das caixas 
-        - animaçao ao colocar e tirar o rato
-    */
 }
 
 h1#tit {
@@ -66,7 +64,7 @@ h1#tit {
 }
 
 p#tit-des {
-    width: 500px;
+    max-width: 500px;
     text-align: center;
     margin: auto;
     padding: 15px;
@@ -83,15 +81,14 @@ main {
     background-color: white;
     margin: auto;
     padding: 18px;
-    height: 1000px;
-    width: 800px;
+    max-width: 800px;
 }
 
 h1 {
     font-family: 'Tech';
     font-size: 2em;
     font-weight: normal;
-    color: #063C1D;
+    color: var(--cor3);
     padding: 1px;
     margin: 10px;
 }
@@ -129,4 +126,6 @@ h2 {
 .link::after {
     content: ' 📎';
 }
+
+
 
