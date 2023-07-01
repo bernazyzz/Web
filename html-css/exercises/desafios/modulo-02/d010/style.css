@@ -9,7 +9,7 @@
 
 :root {
     --cor1: #25a75f;
-    --cor2: #05431f;
+    --cor2: #064b23;
 }
 
 * {
@@ -19,17 +19,17 @@
 
 header {
     color: white;
-    border: 1px solid red;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-image: linear-gradient(to bottom,var(--cor1), var(--cor2), #074622);
-    padding: 20px;
+    background-image: linear-gradient(to bottom,var(--cor1), var(--cor2), #063C1D);
+    padding: 0px;
 }
 
 nav {
     background-color: #063C1D;
     text-align: left;
     padding: 10px;
+    box-shadow: 1px 1px 10px #05341994;
 }
 
 nav > a {
@@ -38,10 +38,21 @@ nav > a {
     padding: 15px;
 }
 
-p {
-    width: 400px;
-    margin: auto;
+nav > a:hover {
+    color: #063C1D;
+    background-color: var(--cor1);
+    border-radius: 6px;
+}
+
+h1#titulo {
+
     padding: 20px;
+}
+
+p#tit-des {
+    width: 500px;
+    margin: auto;
+    padding: 15px;
 }
 
 body {
