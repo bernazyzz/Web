@@ -82,6 +82,8 @@ main {
     margin: auto;
     padding: 18px;
     max-width: 800px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.443);
 }
 
 h1 {
@@ -145,4 +147,13 @@ h2 {
     margin-left: 18px;
     padding-top: 18px;
     padding-bottom: 18px;
+}
+
+.rodape {
+    color: white;
+    background-color: var(--cor3);
+    font: italic 1em Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 18px;
+    box-shadow: 1px 1px 10px #05341994;
 }
