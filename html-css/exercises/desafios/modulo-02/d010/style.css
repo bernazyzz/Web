@@ -149,6 +149,37 @@ h2 {
     padding-bottom: 18px;
 }
 
+
+.box {
+    background-color: #93D5B1;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #05341994
+}
+
+.box-title {
+    color: white;
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.list-cont {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -100px;
+}
+
+
+.lista {
+    text-decoration: none;
+
+}
+
+.lista::before {
+    content: '✔️ ';
+}
+
 .rodape {
     color: white;
     background-color: var(--cor3);
