@@ -142,18 +142,21 @@ h2 {
     text-align: left;
 }
 
-.border {
-    width: 104.5%;
-    background-color: var(--cor3);
-    transform: translate(-18px, 0px);
-}
-
 .video {
-    margin-left: 18px;
-    padding-top: 18px;
-    padding-bottom: 18px;
+    background-color: var(--cor3);
+    margin: 0px -18px 30px -18px;
+    padding: 20px;
+    padding-bottom: 58.5%;
+    position:relative;
 }
 
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
 
 .box {
     background-color: #93D5B1;
