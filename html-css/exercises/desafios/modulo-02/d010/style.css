@@ -169,20 +169,10 @@ h2 {
     border-radius: 10px 10px 0px 0px;
 }
 
-.list-cont {
-    display: flex;
-    justify-content: space-around;
-    margin-left: -100px;
-}
-
-
-.lista {
-    text-decoration: none;
-
-}
-
-.lista::before {
-    content: '✔️ ';
+aside > article > ul {
+    list-style-position: inside;
+    list-style-type: '\00A0\00A0\2714\00A0';
+    columns: 2;
 }
 
 .rodape {
