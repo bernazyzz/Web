@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+
+#rodape {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: auto;
+    padding: 10px;
+}
