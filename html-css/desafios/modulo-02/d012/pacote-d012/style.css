@@ -34,20 +34,40 @@ a {
     font-weight: bold;
 }
 
-.normal {
-    
+a:hover {
+    text-decoration: underline;
 }
 
-.imagem {
-    
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 1px solid black;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.241);
 }
 
 #pr {
-
+    background-image: url('imagens/background001.jpg');
+    
 }
 
 #seg {
-
+    background-image: url('imagens/background002.jpg');
 }
 
 #rodape {
