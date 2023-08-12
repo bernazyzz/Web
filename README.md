@@ -1,3 +1,3 @@
 # Web
 
-Evolving in HTML and CSS
+I studied HTML and CSS and now I currently studying JavaScript.
