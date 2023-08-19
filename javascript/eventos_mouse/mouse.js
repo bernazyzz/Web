@@ -1,3 +1,11 @@
+/*
+    onclick
+    ondblclick
+    onmouseup
+    onmouseover
+    onmouseout
+*/
+
 function acao1() {
     alert('Elemento foi clicado')
 }
