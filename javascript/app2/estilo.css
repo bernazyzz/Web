@@ -1,9 +1,14 @@
 @charset "UTF-8";
 
+html {
+    cursor: url(imagens/mata_mosquito.png) 30 30, auto;
+}
+
 body {
     background-image: url(imagens/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .mosquito1 {
