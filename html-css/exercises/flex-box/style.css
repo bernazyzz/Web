@@ -8,22 +8,22 @@
     /* 
     row | row-reverse | column | column-reverse
     */
-    flex-direction: row;
+    /*flex-direction: row;*/
 
     /*
     nowrap | wrap | wrap-reverse
     */
-    flex-wrap: nowrap;
+    /*flex-wrap: nowrap;*/
 
     /*
     flex-start | flex-end | center | space-between | space-around
     */
-    justify-content: space-around;
+    /*justify-content: space-around;*/
 
     /*
     stretch | center | flex-start | flex-end | baseline
     */
-    align-items: baseline;
+    /*align-items: baseline;*/
 }
 
 .item {
@@ -33,4 +33,41 @@
     background-color: white;
     border: 1px solid gray;
     padding: 3px;
+
+    /* Define porportion of space occupied for one item */
+    flex-grow: 0;
 }
+
+.item1 {
+    flex-grow: 1;
+}
+
+.item2 {
+    flex-grow: 2;
+}
+
+.item3 {
+    flex-grow: 2;
+}
+
+/*
+.order1 {
+    order: 1;
+}
+
+.order2 {
+    order: 2;
+}
+
+.order3 {
+    order: 3;
+}
+
+.order4 {
+    order: 4;
+}
+
+.order {
+    order: -1;
+}
+*/
