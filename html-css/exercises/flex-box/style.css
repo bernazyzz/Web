@@ -27,7 +27,7 @@
 }
 
 .item {
-    width: 100px;
+    width: 200px;
     height: 100px;
     margin: 10px;
     background-color: white;
@@ -35,19 +35,28 @@
     padding: 3px;
 
     /* Define porportion of space occupied for one item */
-    flex-grow: 0;
+    flex-grow: 1;
+
+    /* Set item size reduction capability */
+    flex-shrink: 1;
+
+    /* Indicates the initial size of the flex item before distributing the remaining space */
+    flex-basis: 100px;
 }
 
 .item1 {
-    flex-grow: 1;
+    /*flex-grow: 1;*/
+    /*flex-shrink: 1;*/
 }
 
 .item2 {
-    flex-grow: 2;
+    /*flex-grow: 2;*/
+    /*flex-shrink: 2;*/
 }
 
 .item3 {
-    flex-grow: 2;
+    /*flex-grow: 2;*/
+    /*flex-shrink: 5;*/
 }
 
 /*
